@@ -6,15 +6,15 @@ load_dotenv()
 
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME", "")
+SESSION_NAME = getenv("SESSION_NAME", "BQGjHhMADUdnk9gOVKSmUg0TQfwSczub4McEHlphlwmOAghSAWdKaTdA5gMTymu5dAY2o8twJ0r8n5J2Lt-7UJhLoasQj6hPwSXFtWQA_rWYlG1yHLPJjCmAYV5ngWdTsTbH3y6mo-YHIddOjnekK7P_kY1tFv1QNzxgCm2aF8X7jS2vbUhntgC3-gaaPxBceiVB9jojfj44EM_cW1VFPJYPJGyzBvHdWC120KVnyOOJI1OEUzQRiwnfwDSl658dAqKSUoacn9OhzJG7EJsLEmsQPnxm9ZyCRv9fYxlObSsoZHt_sD_HQ1Nk_VpfVpLsRWhsR_uO74UDsgxbA_9nA2w5Xh9uXwAAAAFsYo9RAA")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-API_ID = int(getenv("API_ID", "8186557"))
-API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "AbishnoiMF")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Abishnoi_bots")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5938660179").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5938660179").split()))
+BOT_TOKEN = getenv("BOT_TOKEN", "5904474622:AAFaLWpKVj-vAxONTXat7c7mWfGYivNjxXY")
+API_ID = int(getenv("API_ID", "27467283"))
+API_HASH = getenv("API_HASH", "33b272caee9a0d79537cad6b6f33b3f7")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "sri_lankan_dark_Angels_2023")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "sri_lankan_dark_Angels_2023")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5975259062").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5975259062").split()))
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "120"))
 
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/31e9ecee16a46575267a4.jpg")
